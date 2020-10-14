@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+header
+
+
+
+#bloc_page
+{
+    width: 900;
+    margin: auto;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+li
+{
+    list-style: none;
+}
