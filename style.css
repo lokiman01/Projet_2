@@ -2,7 +2,7 @@
 {
     font-family: 'Raleway', sans-serif; 
     font-style: bold;
-    
+    margin-left: 15px;
 }   
 
 
@@ -13,9 +13,23 @@
 }
 #top
 {
+    margin-top: 25px;
     display: flex;
     flex-direction: row-reverse;
     
+}
+
+#top1
+{
+color: #0065FC;
+}
+
+#top2
+{
+ color: #000000;
+}
+
+
 }
 #atop
 {
@@ -30,44 +44,102 @@
 #button_search
 {
     background-color:#0065FC;
-    color: #DEEBFF;
+    color: #F2F2F2;
     width: 7em;
     height: 2.1em;
 
 }
 
+#picture
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 6px solid white; 
+    width: 300px;
+	height: 150px;
+    
+}
+#undertxt
+{
+    background-color: white;
+    margin-left: 15px; 
+    border: 15px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: bold;
+    
+}
 
+#cost
+{
+    font-weight: normal;
+    margin-left: 0px;
+}
+
+
+#star1
+{
+ color:#0065FC;
+ margin-left: 0px;
+}
+#star2
+{
+ color:#D9D9D9;
+ margin-left: 0px;
+}
 #mid
 {
     display: flex;
 }
 
+#h1a
+{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 50px;
+}
 #section_1
 {
-    border: 2px solid black;
-    width: auto;
-    height: auto;
-    flex-wrap: wrap;
 
-    align-content: space-between;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
     
+    background-color: #F2F2F2; border-radius: 30px;
+    width: 1200px; 
+	height: 800px;
     
+
+}
+#h1abis
+{
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-left: 50px;
+}
+
+
+#h1b
+{
+    margin-left: 15px;
+    width: 300px;
 }
 
 #section_2 
 {
-    border: 2px solid black;
+    
     width: auto;
     height: auto;
     flex-wrap: wrap;
-    
+    margin-left: 3em;
+    background-color: #F2F2F2; border-radius: 30px;
 }
-
+#h1c
+{
+    margin-left: 15px;
+}
 #section_3
 {
-    border: 2px solid black;
+    
     width: auto;
     height: auto;
     flex-wrap: wrap;
@@ -76,27 +148,31 @@
     align-content: space-between;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15em;
-    
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 footer
 {
-    border: 2px solid red;
+    
     display: flex;
 
 }
 
 footer
-{
-    border: 2px solid black;
+{   
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
-}
-li
-{
-    
+    background-color: #F2F2F2; 
+    text-decoration:none;
     list-style: none;
 }
+
+#ulbot
+{
+    text-decoration:none;
+    list-style: none;  
+   
+}
+
 
