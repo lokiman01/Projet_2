@@ -1,30 +1,102 @@
-
-
-
-
-
-
-
-header
-
-
-
-#bloc_page
+*
 {
-    width: 900;
-    margin: auto;
+    font-family: 'Raleway', sans-serif; 
+    font-style: bold;
+    
+}   
+
+
+#logo
+{  
+  margin-bottom: 3em;  
+
+}
+#top
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#atop
+{
+    
+}
+
+#icon
+{
+    
+    
+}
+#button_search
+{
+    background-color:#0065FC;
+    color: #DEEBFF;
+    width: 7em;
+    height: 2.1em;
+
 }
 
 
+#mid
+{
+    display: flex;
+}
+
+#section_1
+{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#section_2 
+{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+
+#section_3
+{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+
+
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15em;
+    
+}
+footer
+{
+    border: 2px solid red;
+    display: flex;
+
+}
 
 footer
 {
+    border: 2px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
-}
 
+}
 li
 {
+    
     list-style: none;
 }
+
