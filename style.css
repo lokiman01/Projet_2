@@ -2,54 +2,122 @@
 {
     font-family: 'Raleway', sans-serif; 
     font-style: bold;
-    margin-left: 15px;
 }   
 
 
 #logo
 {  
-  margin-bottom: 3em;  
  
+}
+.top_border
+{
+    padding-top:  50px;
+    margin-top: -60px;
+    border-top: 2px solid transparent 
+}
+
+.top_border:hover
+{
+    border-top-color: #0065FC;
 }
 #top
 {
     margin-top: 25px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
+    font-size: 25px;
     
 }
-
 #top1
 {
 color: #0065FC;
+margin-right: 50px;
 }
-
 #top2
 {
  color: #000000;
+ margin-right: 50px;
 }
-
-
-}
-#atop
+#search_txt
 {
-    
-}
-
-#icon
-{
-    
-    
+    width: 150px;
+    height: 30px;
 }
 #button_search
 {
     background-color:#0065FC;
     color: #F2F2F2;
-    width: 7em;
-    height: 2.1em;
-
+    width: 110px;
+    height: 30px;
+    border: 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+#title_filters
+{
+    
+}
+#filters
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid black;
 }
 
+.filter_button
+{
+    height: 50px;
+    display: flex; align-items: center;
+    border: 2px solid grey;
+    border-radius: 25px;
+    background-color: transparent;
+    padding-left: 0px;
+    border-left: transparent;
+}
+
+.icon_contener
+{
+    
+    background-color:purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex; justify-content: center; align-items: center;
+
+    
+}
+.icon_filters
+{
+    margin-left: 0px;
+    border-radius: 15px;
+    color: red;
+    font-size: 25px;
+    
+}
+
+#info_1
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#info_2
+{
+    border: 2px solid #DCDCDC;
+    height: 20px;
+    width: 20px;
+    color: #0065FC;
+    border-radius: 50%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+#info_3
+{
+    
+}
 #picture1
 {
     border: 6px solid white;  
@@ -59,44 +127,56 @@ color: #0065FC;
     border-top-right-radius: 30px;
     float: left
 }
-
 #picture2
 {
     border: 6px solid white;  
-    width: 150px;
-	height: 110px;
+    width: 200px;
+	height: 150px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    margin-bottom: 60px;
+    margin-right: 20px;
     float: left
 }
-
+#picture3
+{
+    border: 6px solid white;  
+    width: 250px;
+	height: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    float: left
+}
 #undertxt
 {
     background-color: white;
-    margin-left: 15px; 
+    margin-left: 0px;
     border: 15px solid white;
     border-radius: 30px;
     font-weight: bold;
-    
 }
-
 #undertxt2
 {
     background-color: white;
-    margin-left: 15px; 
     border: 15px solid white;
     border-radius: 30px;
     font-weight: bold;
-    
+    margin-bottom: 60px;  
 }
-
+#undertxt3
+{
+    background-color: white;
+    margin-left: 0px; 
+    border: 15px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px #F0F0F0;
+}
 #cost
 {
     font-weight: normal;
     margin-left: 0px;
 }
-
-
 #star1
 {
  color:#0065FC;
@@ -110,25 +190,27 @@ color: #0065FC;
 #mid
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
-#h1a
-{
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 50px;
-}
 #section_1
 {
-
     flex-wrap: wrap;
     display: flex;
     
-    background-color: #F2F2F2; border-radius: 30px;
-    width: 1200px; 
-	height: 800px;
-    
+    margin-top: 20px;
+    margin-left: 25px;
 
+    background-color: #F2F2F2; border-radius: 30px;
+    width: 1100px; 
+	height: 800px; 
+}
+#h1a
+{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 #h1abis
 {
@@ -136,59 +218,51 @@ color: #0065FC;
     width: 100%; 
     margin-left: 50px;
 }
-
-
 #h1b
 {
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 50px;
     width: 300px;
-
 }
-
 #section_2 
-{
-    
+{ 
     min-width: 500px;
-    margin-left: 15px;
+    margin-left: 40px;
     background-color: #F2F2F2; border-radius: 30px;
 }
-
 #h1c
 {
-    margin-left: 15px;
+    margin-left: 35px;
     width: 100%;
 }
-
 #section_3
-{
-    
+{ 
     width: auto;
     height: auto;
     flex-wrap: wrap;
-
-
     align-content: space-between;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5em;
     margin-top: 5em;
 }
-
 footer
 {   
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     background-color: #F2F2F2; 
     text-decoration:none;
     list-style: none;
 }
-
 #ulbot
 {
+    margin-right: 400px;
     text-decoration:none;
     list-style: none;  
-   
 }
 
 
+<input id="filters_1" type="submit" value="Économique">
+<input id="filters_1" type="submit" value="Familial">
+<input id="filters_1" type="submit" value="Romantique">
+<input id="filters_2" type="submit" value="Animaux autorisés">
