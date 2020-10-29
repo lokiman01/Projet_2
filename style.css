@@ -54,15 +54,24 @@ margin-right: 50px;
     border-bottom-right-radius: 7px;
     
 }
+#filters_box
+{
+    display: flex;
+}
+
 #title_filters
 {
-    
+display: flex; justify-content: center; align-items: center;
+
 }
 #filters
 {
+    border: 2px solid black;
     margin-bottom: 20px;
     font-size: 20px;
-    border: 2px solid black;
+    display: flex; 
+    
+    
 }
 
 .filter_button
@@ -74,17 +83,23 @@ margin-right: 50px;
     background-color: transparent;
     padding-left: 0px;
     border-left: transparent;
+    margin-left: 20px;
 }
 
+#info_tiltle
+{
+    margin-left: 15px;
+}
 .icon_contener
 {
     
-    background-color:purple;
+    background-color: #DDEBFE;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: none;
     display: flex; justify-content: center; align-items: center;
+    font-style: bold;
 
     
 }
@@ -92,8 +107,9 @@ margin-right: 50px;
 {
     margin-left: 0px;
     border-radius: 15px;
-    color: red;
+    color: #0065FC;
     font-size: 25px;
+    
     
 }
 
@@ -259,6 +275,8 @@ footer
     margin-right: 400px;
     text-decoration:none;
     list-style: none;  
+    background-image: ;
+    
 }
 
 
@@ -266,3 +284,4 @@ footer
 <input id="filters_1" type="submit" value="Familial">
 <input id="filters_1" type="submit" value="Romantique">
 <input id="filters_2" type="submit" value="Animaux autorisés">
+
