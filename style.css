@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: row-reverse; 
     font-size: 25px;
+    margin-bottom: 20px;
     
 }
 #top1
@@ -38,17 +39,37 @@ margin-right: 50px;
  color: #000000;
  margin-right: 50px;
 }
+
+#first_title
+
+{
+font-size: 20px;
+font-weight: 900;
+}
+
+#subtitle
+{
+    padding-top: 3px;
+    margin-bottom: 15PX;
+}
+#search_box
+{
+    margin-bottom: 20px;
+}
+
 #search_txt
 {
-    width: 150px;
-    height: 30px;
+    width: 200px;
+    height: 40px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 #button_search
 {
     background-color:#0065FC;
     color: #F2F2F2;
     width: 110px;
-    height: 30px;
+    height: 40px;
     border: 0px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -57,11 +78,15 @@ margin-right: 50px;
 #filters_box
 {
     display: flex;
+    font-style: bold;
+    margin-bottom: 30px;
 }
 
 #title_filters
 {
 display: flex; justify-content: center; align-items: center;
+font-weight: 900;
+margin-right: 5px;
 
 }
 #filters
@@ -76,26 +101,25 @@ display: flex; justify-content: center; align-items: center;
 
 .filter_button
 {
-    height: 50px;
+    height: 35px;
     display: flex; align-items: center;
-    border: 2px solid grey;
-    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    border-radius: 50px;
     background-color: transparent;
     padding-left: 0px;
     border-left: transparent;
-    margin-left: 20px;
+    margin-left: 15px;
+    font-style: bold;
+    
 }
 
-#info_tiltle
-{
-    margin-left: 15px;
-}
+
 .icon_contener
 {
     
     background-color: #DDEBFE;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     border: none;
     display: flex; justify-content: center; align-items: center;
@@ -112,6 +136,19 @@ display: flex; justify-content: center; align-items: center;
     
     
 }
+.inco_txt
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+#info_tiltle
+{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
 
 #info_1
 {
@@ -123,11 +160,12 @@ display: flex; justify-content: center; align-items: center;
 #info_2
 {
     border: 2px solid #DCDCDC;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     color: #0065FC;
     border-radius: 50%;
-    padding-left: 5px;
+    padding-left: 7px;
+    padding-top: 1px;
     box-sizing: border-box;
 }
 #info_3
@@ -246,6 +284,7 @@ display: flex; justify-content: center; align-items: center;
     min-width: 500px;
     margin-left: 40px;
     background-color: #F2F2F2; border-radius: 30px;
+    margin-top: 20px;
 }
 #h1c
 {
