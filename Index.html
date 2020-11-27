@@ -10,76 +10,74 @@
     <script src="https://kit.fontawesome.com/8f16d00854.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
 
+
 </head>
 
 <body>
-
-    <div id="top">
-        <div id="box_logo">
-            <img id="logo" src="images/logo/Reservia_logo.png" alt="Reservia_logo">
+    <!-- PAGE HEADER ------------------------------------------------------------------------>
+    <header class="header">
+        <img class="headerlogo" src="images/logo/Reservia_logo.png" alt="Reservia_img">
+        <div class="headerbox">
+            <a class="headerurl" href="Index.html">Hébergement</a>
+            <a class="headerurl" href="Index.html">Activités</a>
         </div>
-
-        <div id="box_top">
-            <a class="top_border" id="top1" href="Index.html">Hébergements</a>
-            <a class="top_border" id="top2" href="Index.html">Activités</a>
-            <a class="top_border" id="top3" href="Index.html">S'inscricre</a>
-        </div>
-
-    </div>
-
-    <div id="first_title">Trouvez votre hébergement pour des vacances de rêve</div>
-    <div id="subtitle">En plein centre ville ou en pleine nature</div>
-
-
-
-    <div id="search_box">
-        <i id="search_icon" class="fas fa-map-marker-alt"></i>
-        <input id="search_txt" type="search" name="Rechercher" value="Marseille,France">
-        <input id="button_search" type="submit" value="Rechercher">
-        <label href="Index.html" for="search"></label>
-    </div>
-
-
-
-
-    <form action="">
-
-
-
-        <div id="filters_box">
-            <div id="title_filters">Filtres</div>
-            <button class="filter_button">
-                <div class="icon_contener"><i class="fas fa-money-bill-wave icon_filters"></i></div>
-                <div class="inco_txt">Économique</div>
-            </button>
-            <button class="filter_button">
-                <div class="icon_contener"><i class="fas fa-child icon_filters"></i></div>
-                <div class="inco_txt">Familial</div>
-            </button>
-            <button class="filter_button">
-                <div class="icon_contener"><i class="fas fa-heart icon_filters"></i></div>
-                <div class="inco_txt">Romantique</div>
-            </button>
-            <button class="filter_button">
-                <div class="icon_contener"><i class="fas fa-dog icon_filters"></i></div>
-                <div class="inco_txt">Animaux autorisés</div>
-            </button>
-        </div>
-    </form>
-    </div>
-
-    <div id="info_1">
-        <div id="info_2">
-            <i class="fas fa-info"></i>
-        </div>
-        <div id="info_tiltle">Plus de 500 logements sont disponibles dans cette ville</div>
-    </div>
-
-
-    <header>
+        <a class="signup" href="Index.html">S'inscrire</a>
     </header>
-
-    <div id="mid">
+    <!-- MAIN ------------------------------------------------------------------------------->
+    <main class="main">
+        <!-- SECTION0 ----------------------------------------------------------------------->
+        <section id=section0>
+            <header>
+                <h1 id="section0_title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p id="section0_subtitle">En plein centre ville ou en pleine nature</p>
+            </header>
+            <!-- BUTTON SEARCH -------------------------------------------------------------->
+            <form class="buttonbox" action="proceedFrom.html" method="GET">
+                <div class="buttondata">
+                  <i class="fas fa-map-marker-alt buttondataicon"></i>
+                </div>
+                <input class="buttoninput" type="search" placeholder="Marseille, France" size="1">
+                <button class="buttonclicinput">
+                  <div class="buttonclicinputtxt">Rechercher</div>
+                  <i class="buttonclicinputicon fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <!-- FILTER --------------------------------------------------------------------->
+            <div class="filterbox">
+                <h2 class="filterstitle">Filtres</h2>
+                <div class="allfilters">
+                    <div class="Filtersiconbox">
+                        <i class="fas fa-money-bill-wave searchicondata"></i>
+                    </div>
+                    <div class="filtersubtitle">Économique</div>
+                </div>
+                <div class="allfilters">
+                    <div class="Filtersiconbox">
+                        <i class="fas fa-child searchicondata"></i>
+                    </div>
+                    <div class="filtersubtitle">Familial</div>
+                </div>
+                <div class="allfilters">
+                    <div class="Filtersiconbox">
+                        <i class="fas fa-heart searchicondata"></i>
+                    </div>
+                    <div class="filtersubtitle">Romantique</div>
+                </div>
+                <div class="allfilters">
+                    <div class="Filtersiconbox">
+                        <i class="fas fa-dog searchicondata"></i>
+                    </div>
+                    <div class="filtersubtitle">Animaux autorisés</div>
+                </div>
+            </div>
+            <!-- ICON INFO-------------------------------------------------------------------->
+            <div class="info">
+                <div class="infoicon"><i class="fas fa-info infoicondata"></i></div>
+                <p class="infotxt">Plus de 500 logements sont disponibles dans cette ville</p>
+              </div>
+            </section>
+        <!-- SECTION 1------------------------------------------------------------------------>
         <section id="section_1">
             <h1 id="h1a">Hébergements à Marseiller</h1>
 
@@ -88,79 +86,78 @@
                 <div id="undertxt">
                     Auberge de la cannebière<br />
                     <div id="cost">Nuit à partir de 25€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
 
                 </div>
             </div>
-
-
             <div class="picture_box_1">
                 <div class="picture1" id="url_picture_2"> </div>
                 <div id="undertxt">
                     Hôtel du port<br />
                     <div id="cost">Nuit à partir de 52€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i><br />
                 </div>
             </div>
-
-
             <div class="picture_box_1">
                 <div class="picture1" id="url_picture_3"> </div>
                 <div id="undertxt">
                     Hotêl Les mouettes<br />
                     <div id="cost">Nuit à partir de 76€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
                 </div>
             </div>
-
-
             <div class="picture_box_1">
                 <div class="picture1" id="url_picture_4"> </div>
                 <div id="undertxt">
                     Hôtel de la mer<br />
                     <div id="cost">Nuit à partir de 46€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star2" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
                 </div>
             </div>
-
-
             <div class="picture_box_1">
                 <div class="picture1" id="url_picture_5"> </div>
                 <div id="undertxt">
                     Auberge Le Panier<br />
                     <div id="cost">Nuit à partir de 23€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
                 </div>
-
             </div>
-
-
             <div class="picture_box_1">
                 <div class="picture1" id="url_picture_6"> </div>
                 <div id="undertxt">
                     Hôtel chez Amina<br />
                     <div id="cost">Nuit à partir de 96€<br /></div>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i><br />
                 </div>
             </div>
-
             <h1 id="h1abis">Afficher plus</h1>
         </section>
-
+        <!-- SECTION 2----------------------------------------------------------------------------->
         <section id="section_2">
-
             <div class="h1b_box">
                 <h1 id="h1b">Les plus populaires </h1>
                 <div id="icon_1_box"><i class="far fa-chart-line"></i></div>
@@ -175,12 +172,13 @@
                     <BR>
                     <BR>
                     <BR>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i><br />
                 </div>
             </div>
-
 
             <div class="picture_box_2">
                 <div class="picture2" id="url_picture_8"> </div>
@@ -191,12 +189,13 @@
                     <BR>
                     <BR>
                     <BR>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
                 </div>
             </div>
-
 
             <div class="picture_box_2">
                 <div class="picture2" id="url_picture_9"> </div>
@@ -207,68 +206,70 @@
                     <BR>
                     <BR>
                     <BR>
-                    <i id="star1" class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star1"
-                        class="fas fa-star"></i><i id="star1" class="fas fa-star"></i><i id="star2"
-                        class="fas fa-star"></i><br />
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star1" class="fas fa-star"></i>
+                    <i id="star2" class="fas fa-star"></i><br />
                 </div>
             </div>
 
         </section>
-    </div>
-    </div>
-    <section id="section_3">
-        <h1 id="h1c">Activités à Marseille</h1>
+        <!-- SECTION 3 ------------------------------------------------------------------------------>
+        <section id="section_3">
+            <h1 id="h1c">Activités à Marseille</h1>
 
-        <div class="S3_box">
-            <div class="picture3" id="url_picture_10"> </div>
-            <div id="undertxt3">
+            <div class="S3_box">
+                <div class="picture3" id="url_picture_10"> </div>
+                <div class="undertxt3">
 
-                Vieux port
-            </div>
-        </div>
-
-        <div class="S3_box">
-            <div>
-                <div class="picture3_1" id="url_picture_11"> </div>
-                <div id="undertxt3">
-                    <br>
-                    Fort de Pomègues
+                    Vieux port
                 </div>
             </div>
-            <div>
-                <div class="picture3_1" id="url_picture_12"> </div>
-                <div id="undertxt3">
-                    Îles de Frioul
+
+            <div class="S3_box">
+                <div>
+                    <div class="picture3_1" id="url_picture_11"> </div>
+                    <div class="undertxt3">
+                        <br>
+                        Fort de Pomègues
+                    </div>
+                </div>
+                <div>
+                    <div class="picture3_1" id="url_picture_12"> </div>
+                    <div class="undertxt3">
+                        Îles de Frioul
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="S3_box">
+            <div class="S3_box">
 
-            <div class="picture3" id="url_picture_13"> </div>
-            <div id="undertxt3">
-                Parc National des Calanques
-            </div>
-
-        </div>
-        <div class="S3_box">
-
-            <div class="picture3_1" id="url_picture_14"> </div>
-            <div id="undertxt3">
-                Notre-Dame-de-la-Garde
-            </div>
-            <div>
-                <div class="picture3_1" id="url_picture_15"> </div>
-                <div id="undertxt3">
-                    Parc Longchamp
-
+                <div class="picture3" id="url_picture_13"> </div>
+                <div class="undertxt3">
+                    Parc National des Calanques
                 </div>
 
             </div>
-    </section>
+            <div class="S3_box">
+
+                <div class="picture3_1" id="url_picture_14"> </div>
+                <div class="undertxt3">
+                    Notre-Dame-de-la-Garde
+                </div>
+                <div>
+                    <div class="picture3_1" id="url_picture_15"> </div>
+                    <div class="undertxt3">
+                        Parc Longchamp
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <!--FOOTER----------------------------------------------------------------------------------------->
     <footer>
-        <!--bas de page-->
+
         <div>
-            <ul id="ulbot">
+            <ul class="ulbot">
                 <h3 id="footer_title">A propos</h2>
                     <li><a id="URL_footer" href="Index.html">Fonctionement du site</a></li><br>
                     <li><a id="URL_footer" href="Index.html">Conditions générales de vente</a></li><br>
@@ -276,20 +277,19 @@
             </ul>
         </div>
         <div>
-            <ul id="ulbot">
+            <ul class="ulbot">
                 <h3 id="footer_title">Nos hébergements</h2>
                     <li><a id="URL_footer" href="Index.html">Charte qualité</a></li><br>
                     <li><a id="URL_footer" href="Index.html">Centre d'aide</a></li><br>
             </ul>
         </div>
         <div>
-            <ul id="ulbot">
+            <ul class="ulbot">
                 <h3 id="footer_title">Assistance</h2>
                     <li><a id="URL_footer" href="Index.html">Centre d'aide</a></li><br>
                     <li><a id="URL_footer" href="Index.html">Nous contacter</a></li><br>
             </ul>
         </div>
-
     </footer>
 
 </body>
