@@ -5,7 +5,6 @@
 }   
 /* HEADER---------------------------------------------------------- */
 a {
-    color: inherit;
     text-decoration: none;
   }
 .header {
@@ -278,6 +277,12 @@ margin-bottom: 9px;
     background-size: cover;
     height: 7rem;
     width: 235px;
+        cursor: pointer;
+
+}
+.picture1:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
 
 }
 #undertxt
@@ -287,6 +292,11 @@ margin-bottom: 9px;
     padding-left: 10px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+#undertxt:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
 }
 #cost
 {
@@ -367,7 +377,12 @@ margin-bottom: 9px;
     background-size: cover;
    
 }
+.picture2:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
 
+}
 
 #undertxt2
 {
@@ -380,7 +395,11 @@ margin-bottom: 9px;
     width: 100%;
     padding-right: 10px;
 }
-
+#undertxt2:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
+}
 
 #url_picture_7
 {
@@ -396,7 +415,6 @@ margin-bottom: 9px;
 }
 
 @media screen and (max-width: 1440px) {
-
     .sectionmidbox {
       display: grid;
       grid-template-columns: 1fr;
@@ -439,8 +457,6 @@ margin-bottom: 9px;
       padding: 0 0px;
       box-sizing: border-box;
   }
-
-
 }
 @media screen and (min-width: 1440px) {
     .sectionmidbox {
@@ -530,6 +546,12 @@ margin-bottom: 9px;
     padding-bottom: 2rem;
 
 }
+.picture3:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
+
+}
 .picture3_1
 {
     margin-bottom: 30px;
@@ -541,10 +563,14 @@ margin-bottom: 9px;
     background-position: center;
     background-size: cover;
 }
+.picture3_1:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
 
+}
 .undertxt3
 {
-    
     font-size: 20px;
     padding: 20px;
     background-color: white;
@@ -554,6 +580,11 @@ margin-bottom: 9px;
     box-shadow: 0px 0px 7px 7px #F0F0F0;
     margin-bottom: 50px;
     padding-bottom: 30px;
+}
+.undertxt3:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.0.25); 
+  cursor: pointer;
 
 }
 
@@ -584,8 +615,6 @@ footer
     background-color: #F2F2F2; 
     text-decoration:none;
     list-style: none;
-    
-
 }
 .ulbot
 {  
