@@ -99,19 +99,19 @@ margin-bottom: 9px;
 #section0_subtitle {
     margin-top: 1px;
 }
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     #section0_title {
       width: 100%;
     }
     #section0_subtitle {
       margin-right: 15px;
     }
+
 }
-/* BUTTON SEARCH ------------------------------------------------------- */
+/* BUTTON SEARCH ------------------------overflow: auto;------------------------------- */
 .buttonbox {
     display: inline-flex;
     max-width: 100%;
-    overflow: auto;
 }
   .buttondata {
     background-color: #F2F2F2;
@@ -149,7 +149,7 @@ margin-bottom: 9px;
     font-size: 15px;
     cursor: pointer;
 }
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .buttonboxForm {
       display: flex;
       width: 100%;
@@ -164,7 +164,7 @@ margin-bottom: 9px;
       display: block;
     }
 }
-@media screen and (min-width: 601px) {
+@media all and (min-width: 601px) {
     .buttonclicinputtxt {
       display: block;
     }
@@ -240,22 +240,17 @@ margin-bottom: 9px;
 .infoicondata {
   color: #0065FC;
 }
-.infotxt {
-  
-}
 /* SECTION MID BOX ------------------------------------------------------- */
-.sectionmidbox {
-    display: flex;
-}
+
 #section_1{
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     background-color: #F2F2F2;
     border-radius: 30px;
-    height: 100%;
+    height: 90%;
+    padding: 2rem;
 }
 #section1title {
  
-    margin-top: 30px;
     margin-left: 25px;
     margin-bottom: 10px;
     
@@ -263,6 +258,7 @@ margin-bottom: 9px;
 .linebox {
     display: flex;
     justify-content: center;
+    padding-bottom: 6px;
 }
 .picture_box_1
 {
@@ -272,6 +268,7 @@ margin-bottom: 9px;
     box-shadow: 0 0 16px #0000002e;
     min-width: 200px;
     margin: 15px;
+
 }
 .picture1
 {
@@ -331,69 +328,45 @@ margin-bottom: 9px;
     background-image: url(images/hebergements/4_small/Hôtel\ chez\ Amina.jpg);
 }
 
+#section1titleunder
+{ 
+    width: 100%; 
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
 
 /* SECTION 2 ------------------------------------------------------- */
 
-
-.section_2 
+.section2 
 { 
-    min-width: 560px;
-    margin-left: 40px;
-    padding-right: 10px;
-    background-color: #F2F2F2; border-radius: 30px;
-    
+    background-color: #F2F2F2; 
+    border-radius: 30px;
+    padding: 2rem 2rem 1rem 2rem ;
 }
-#h1b
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
+#section2title
+{  
+    padding-bottom: 2px;
     margin-left: 50px;
-    width: 300px;
-    font-size: 27px;
+    width: 100%;
 }
 .picture_box_2
 {
-    padding-left: 50px;
-    padding-bottom: 30px;
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    
 }
 
 .picture2
 {
     border: 6px solid white;  
-    width: 200px;
-	height: 180px;
+    height: 8rem;
+    max-width: 130px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     background-position: center;
     background-size: cover;
    
 }
-.picture3
-{
-    margin-bottom: 30px;
-    width: 405px;
-	height: 685px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-
-}
-.picture3_1
-{
-    margin-bottom: 30px;
-    width: 420px;
-	height: 273px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-}
-
 
 
 #undertxt2
@@ -404,60 +377,10 @@ margin-bottom: 9px;
     border-bottom-right-radius: 30px;
     font-style: bold;
     float: right;
-    width: 220px;
-}
-.undertxt3
-{
-    
-    font-size: 20px;
-    padding: 20px;
-    background-color: white;
-    border: 15px solid white;
-    border-radius: 30px;
-    font-weight: bold;
-    box-shadow: 0px 0px 7px 7px #F0F0F0;
-    margin-bottom: 50px;
-}
-
-
-#mid
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-#h1a
-{
-    margin-top: 30px;
     width: 100%;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    font-size: 27px;
-}
-#h1abis
-{
-    flex-wrap: wrap; justify-content: center; align-items: center;
-    width: 100%; 
-    margin-left: 50px;
+    padding-right: 10px;
 }
 
-.h1b_box
-{
-    font-size: 23px;
-    display: flex;
-}
-
-
-
-
-#h1c
-{
-    margin-bottom: 30px;
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 100%;
-}
 
 #url_picture_7
 {
@@ -471,6 +394,86 @@ margin-bottom: 9px;
 {
     background-image: url(images/hebergements/4_small/Hôtel\ tout\ bleu\ et\ Blanc.jpg);
 }
+
+@media screen and (max-width: 1440px) {
+
+    .sectionmidbox {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+    }
+
+    .section1 {
+       height: 80%;
+    }
+    .linebox {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .picture1 {
+        width: 100%;
+
+    }  
+    .picture2 {
+      min-width: 60px;
+        
+    }
+    #section2title {  
+    padding-bottom: 2px;
+    margin-left: 0px;
+    width: 100%;
+    }
+    .section2{
+      padding-right: 0px;
+      padding-left: 5px;
+      grid-row-start: 1;
+      width: 50%;
+      justify-content: center;
+
+    }
+    .main {
+      max-width: 1500px;
+      margin: auto;
+      padding: 0 0px;
+      box-sizing: border-box;
+  }
+
+
+}
+@media screen and (min-width: 1440px) {
+    .sectionmidbox {
+      display: grid;
+      column-gap: 2rem;
+      grid-template-columns: 6fr 3fr;
+    
+    } 
+
+    .section2 {
+
+      padding-left: 0 0 0 0;
+      
+    }
+    .picture2 {
+        min-width: 140px;  
+    }  
+    .undertxt2{
+    
+    }
+    
+}
+
+
+    /* SECTION 3 ------------------------------------------------------- */
+#h1c
+{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 100%;
+}
+
 #url_picture_10
 {
     background-image: url(images/activites/4_small/Vieux\ port.jpg);
@@ -501,14 +504,77 @@ margin-bottom: 9px;
 { 
     width: auto;
     height: auto;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 4rem;
+    margin-top: 0px;
+    padding-top: 2rem;
 }
 .S3_box
 {
-    padding-left: 50px;
+    padding-left: 25px;
+    min-width: 250px;
+    
+}
+
+.picture3
+{
+    margin-bottom: 30px;
+    width: 100%;
+	  height: 70%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2rem;
+
+}
+.picture3_1
+{
+    margin-bottom: 30px;
+    width: 100%;
+	  height: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+
+.undertxt3
+{
+    
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 7px 7px #F0F0F0;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (max-width: 1440px) {
+    .picture3{
+      max-height: 4rem;
+      height: 150px;
+    }
+    .S3_box
+    {
+        padding-left: 0px;
+        min-width: 300px;
+        
+    }
+    .undertxt3{
+      padding-top: 20px;
+    }
+    .picture3_1
+    {
+      height: 150px;
+    }
 }
 footer
 {   
@@ -518,6 +584,7 @@ footer
     background-color: #F2F2F2; 
     text-decoration:none;
     list-style: none;
+    
 
 }
 .ulbot
@@ -539,6 +606,15 @@ footer
 {
     font-size: 30px;
 }
+@media screen and (max-width: 1440px) {
+    .picture3{
+      width: 240px;  
+    }
+    .picture3_1{
+      width: 240px;
+    }
 
+
+}
 
 
