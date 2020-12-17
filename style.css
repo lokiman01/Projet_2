@@ -285,7 +285,7 @@ margin-bottom: 9px;
   transform: scale(1.0.25); 
 
 }
-#undertxt
+.undertxt
 {
     background-color: white;
     font-weight: bold;
@@ -293,12 +293,12 @@ margin-bottom: 9px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-#undertxt:hover {
+.undertxt:hover {
   background-color: #f3f8ff;
   transform: scale(1.0.25); 
   cursor: pointer;
 }
-#cost
+.cost
 {
     font-weight: normal;
     margin-left: 0px;
@@ -384,7 +384,7 @@ margin-bottom: 9px;
 
 }
 
-#undertxt2
+.undertxt2
 {
     background-color: white;
     border: 15px solid white;
@@ -395,7 +395,7 @@ margin-bottom: 9px;
     width: 100%;
     padding-right: 10px;
 }
-#undertxt2:hover {
+.undertxt2:hover {
   background-color: #f3f8ff;
   transform: scale(1.0.25); 
   cursor: pointer;
@@ -626,12 +626,12 @@ footer
     
 }
 
-#URL_footer
+.URL_footer
 {
     font-size: 20px;
     text-decoration: none;
 }
-#footer_title
+.footer_title
 {
     font-size: 30px;
 }
