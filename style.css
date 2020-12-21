@@ -43,6 +43,10 @@ a {
     color: #0065FC;
     font-weight: 600;
 }
+.activity {
+  color: black;
+}
+
 @media all and (min-width: 500px) {
     .header {
       grid-template-columns: auto 1fr auto auto;
@@ -274,8 +278,8 @@ margin-bottom: 9px;
     background-position: center;
     background-size: cover;
     height: 7rem;
-    min-width: 235px;
     cursor: pointer;
+    min-width: 251px;
 
 }
 .picture1:hover {
@@ -354,6 +358,14 @@ margin-bottom: 9px;
     padding-bottom: 2px;
     width: 100%;
     margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.popularicon{
+  padding-right: 3rem;
+  size: 3rem;
 }
 .picture_box_2
 {
@@ -425,6 +437,7 @@ margin-bottom: 9px;
 
     .picture1 {
         width: 100%;
+        min-width: 251px;
 
     }  
     .picture2 {
@@ -439,9 +452,6 @@ margin-bottom: 9px;
     .section2{
       padding: 0.1rem;
       grid-row-start: 1;
-      width: 100%;
-      justify-content: center;
-
     }
     .main {
       max-width: 1500px;
@@ -464,7 +474,9 @@ margin-bottom: 9px;
     .footer{
       margin-left: 15rem;
     } 
-
+    .section2{
+      
+    }
     
 }
 
@@ -565,10 +577,6 @@ margin-bottom: 9px;
     .picture3{
       max-height: 4rem;
       height: 150px;
-    }
-    .S3_box
-    {
-      height: 100%;
     }
     .undertxt3{
       padding-top: 20px;
