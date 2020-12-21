@@ -240,12 +240,11 @@ margin-bottom: 9px;
 }
 /* SECTION MID BOX ------------------------------------------------------- */
 
-#section_1{
+#section1{
     flex-wrap: wrap-reverse;
     background-color: #F2F2F2;
     border-radius: 30px;
-    height: 90%;
-    padding: 2rem;
+    padding: 1rem;
 }
 #section1title {
  
@@ -257,6 +256,7 @@ margin-bottom: 9px;
     display: flex;
     justify-content: center;
     padding-bottom: 6px;
+    margin-left: -1px;
 }
 .picture_box_1
 {
@@ -283,12 +283,14 @@ margin-bottom: 9px;
 
 
 }
-.undertxt{
-    background-color: white;
-    font-weight: bold;
-    padding-left: 10px;
-    font-size: 18px;
+.undertxt {
+  background-color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 18px;
+  padding: 1rem;
 }
+
 .undertxt:hover {
   cursor: pointer;
 }
@@ -350,8 +352,8 @@ margin-bottom: 9px;
 #section2title
 {  
     padding-bottom: 2px;
-    margin-left: 50px;
     width: 100%;
+    margin-left: 25px;
 }
 .picture_box_2
 {
@@ -435,8 +437,7 @@ margin-bottom: 9px;
     width: 100%;
     }
     .section2{
-      padding-right: 0px;
-      padding-left: 5px;
+      padding: 0.1rem;
       grid-row-start: 1;
       width: 100%;
       justify-content: center;
@@ -471,10 +472,10 @@ margin-bottom: 9px;
     /* SECTION 3 ------------------------------------------------------- */
 #section3title
 {
-    margin-bottom: 30px;
-    margin-top: 40px;
-    width: 100%;
-    margin-bottom: -50px;
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: -50px;
+  padding-top: 2rem;
 }
 
 #url_picture_10
@@ -567,9 +568,7 @@ margin-bottom: 9px;
     }
     .S3_box
     {
-        padding-left: 0px;
-        min-width: 300px;
-        
+      height: 100%;
     }
     .undertxt3{
       padding-top: 20px;
@@ -602,24 +601,36 @@ footer
 .picture3_1{
   width: 100%;
 }
-footer{
-    justify-content: start;
+
+.footerbox{
+  display: flex;
+  max-width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  width: 1440px;
+  margin: auto;
+}
+.ulbox{
+  width: 30%;
+  padding: 2rem 2rem;
 }
 .ulbot{  
     
   padding-right: 0rem;
   text-decoration:none;
-  list-style: none;     
 }
-.URL_footer
-{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
+.URL_footer{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 1rem;
+  display: block;
+  
+
 }
 .footer_title
 {
-    font-size: 30px;
+    font-size: 25px;
 }
 #section3
 { 
@@ -628,4 +639,25 @@ footer{
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 4rem;
 
+}
+
+@media screen and (max-width: 1001px) {
+  .footerbox{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1001px) {
+  #section3{
+  row-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  }
+}
+  
+
+@media screen and (max-width: 651px) {
+  #section3{
+    row-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
 }
