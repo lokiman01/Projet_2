@@ -269,6 +269,7 @@ margin-bottom: 9px;
     box-shadow: 0 0 16px #0000002e;
     min-width: 200px;
     margin: 15px;
+    color: black;
 
 }
 .picture1
@@ -368,7 +369,6 @@ margin-bottom: 9px;
 }
 .popularicon{
   padding-right: 3rem;
-  size: 3rem;
 }
 .picture_box_2
 {
@@ -637,7 +637,7 @@ footer
   color: black;
   margin-top: 1rem;
   display: block;
-  
+  min-width: 200px;
 
 }
 .footer_title
