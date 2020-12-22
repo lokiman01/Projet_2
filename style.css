@@ -303,6 +303,9 @@ margin-bottom: 9px;
     font-weight: normal;
     margin-left: 0px;
 }
+.costbold{
+  font-weight: bold;
+}
 .star1
 {
  color:#0065FC;
@@ -400,6 +403,7 @@ margin-bottom: 9px;
     float: right;
     width: 100%;
     padding-right: 10px;
+    font-weight: bold;
 }
 .undertxt2:hover {
   background-color: #f3f8ff;
