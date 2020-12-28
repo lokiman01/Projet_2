@@ -624,6 +624,7 @@ footer
 .ulbox{
   width: 30%;
   padding: 2rem 2rem;
+  
 }
 .ulbot{  
     
@@ -636,7 +637,7 @@ footer
   color: black;
   margin-top: 1rem;
   display: block;
-  min-width: 200px;
+  overflow-wrap: break-word;
 
 }
 .footer_title
