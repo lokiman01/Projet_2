@@ -622,14 +622,15 @@ footer
   margin: auto;
 }
 .ulbox{
-  width: 30%;
-  padding: 2rem 2rem;
+  padding: 5px 5px 0px 0px;
   
 }
 .ulbot{  
     
   padding-right: 0rem;
   text-decoration:none;
+  width: 30%;
+  min-width: 200px;
 }
 .URL_footer{
   font-size: 20px;
@@ -654,12 +655,12 @@ footer
 }
 
 
-@media screen and (max-width: 1001px) {
+@media screen and (max-width: 1031px) {
   .footerbox{
     flex-wrap: wrap;
   }
-}
-@media screen and (max-width: 1001px) {
+ 
+
   #section3{
   row-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
