@@ -1,0 +1,275 @@
+ /* MENU---------------------------------------------------- */
+
+/* Header */
+a{
+    text-decoration: none;
+}
+.section1    {
+    background-color: white;
+
+}
+.boxmenu{
+    width: 375px;
+    margin: auto;
+    background: #f7f7f7;
+    padding-bottom: 20px;
+    box-shadow: 0px 3px 4px rgb(206, 201, 201);
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+.headerbox{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    font-size: 1.7rem;
+    color: black;
+}
+.title { 
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: "Shrikhand", sans-serif;
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 375px;
+    background: white;
+    height: 235px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+}
+.menutitle{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -70px;
+    padding-top: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.menutitlebox 
+{
+border-radius: 0;
+margin-top: 0px;
+background: white;
+font-size: 1.7rem;
+font-family: "Shrikhand";
+margin: 30px auto;
+}
+
+.platprice{
+    margin-top: 14px;
+    margin-right: 2px;
+    transition: transform 350ms ease-in-out;
+    font-weight: bolder;
+}
+
+.platgreenbox{
+    display: flex;
+}
+.checkbox-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.platbox {
+    background: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 5px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 4px rgb(206, 201, 201);
+    border: 1px solid white;
+    cursor: pointer;
+    overflow: hidden;  
+}
+.platbox:hover{
+    .rightgreen{
+        transform: translate(-60px, 0);
+        
+    }
+    .platprice{
+        transform: translate(-60px, 0);
+       
+    }
+    .validationlogo{
+         animation: spin 1s;
+    }
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(-720deg); 
+    }
+}
+
+.platcontent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2rem;
+  height: 40px;
+  position: relative;
+  
+}
+.rightgreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: -1px;
+    width: 60px;
+    height: 55px;
+    border-radius: 0 10px 10px 0px;
+    background: #99e2d0;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    transition: transform 350ms ease-in-out;
+}
+.validationlogo{
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #99E2D0;
+}
+.plattitle{
+    font-size: 1.1rem;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
+.buttonorderbox {
+  display: flex;
+  background: #f7f7f7;
+  width: 100%;
+}
+.menusubtitle{
+    font-weight: 100;
+    font-size: 0.9rem;
+    width: 260px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+#heart0 {
+  position: relative;
+  margin: auto;
+  font-size: 1.7rem;
+  width: 20px;
+  height: 25px;
+}
+
+/* COMMANDER */
+.buttonorder {
+  cursor: pointer;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  box-shadow: 0px 5px 5px lightgrey;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  background: linear-gradient(173deg, #ff79da 0%, #d66cdb 38%, #ab5edc 84%, #9b59dc 100%);
+  color: white;
+  cursor: pointer;
+  transform: scale(1);
+  &:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+  }
+}
+.order
+{
+    color: white;
+}
+/* footer */
+
+footer {
+    background: #363636;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    min-width: 320px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+.footertitle {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Shrikhand", sans-serif;
+    margin-left: 1rem;
+
+}
+.footertxt{
+    margin-left: 1rem;
+
+}
+.footericon{
+    padding-right: 1rem;
+}
+.cardtitle{
+    margin-left: 1rem;
+    border-bottom: 3px solid #99e2d0;
+    width: 40px;
+}
+.footerlink{
+    text-decoration: none;
+    color: white;
+}
+
+
